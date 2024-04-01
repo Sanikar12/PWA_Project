@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the header content */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Spacing between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove default underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* CSS styling for product display */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.product-image {
+    max-width: 200px;
+    max-height: 200px;
+}
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

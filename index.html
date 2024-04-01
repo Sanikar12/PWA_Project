@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    
+</head>
+<body>
+   <!-- / <script src="/script.js"></script/> -->
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-container">
+        <div class="product-item">
+            <img src="/images/image4.png" alt="Product 1">
+            <div class="product-details">
+                <p class="product-name">Product 1</p>
+                <p class="product-price">Rs30000</p>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="/images/image2.png" alt="Product 2">
+            <div class="product-details">
+                <p class="product-name">Product 2</p>
+                <p class="product-price">Rs.350000</p>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="/images/image1.png" alt="Product 3">
+            <div class="product-details">
+                <p class="product-name">Product 3</p>
+                <p class="product-price">$20.00</p>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('serviceworker.js')
+              .then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+              }, function(err) {
+                console.error('ServiceWorker registration failed: ', err);
+              });
+          });
+        }
+      </script>
+      
+    
+   
+</body>
+</html>

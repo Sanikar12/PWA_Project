@@ -1,0 +1,29 @@
+
+{
+"name": "Ecommerce Homepage",
+"short_name": "Ecommerce",
+"start_url": "/",
+"background_color": "#ffffff",
+"theme_color": "#007bff",
+"icons" :[
+    {
+"src": "images/image1.png",
+"type": "image/png",
+"sizes": "225x225"
+    },
+{
+
+"src": "images/image2.png",
+"type": "image/png",
+"sizes": "225x225"
+},
+
+
+{
+"src": "images/image4.png",
+"type": "image/png",
+"sizes": "225x225"
+}],
+"description": "Homepage for our Ecommerce store."
+
+}
